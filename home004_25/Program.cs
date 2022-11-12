@@ -8,6 +8,7 @@
 int GetFac(int number1, int number2)
 {
     int fac = 1;
+    number2 = Math.Abs(number2);
     for (int i = 1; i <= number2; ++i)
     {
         fac = number1 * fac;
